@@ -3,424 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Potamask | Batatas que dão vontade</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Potamask | Máquinas de Batata Profissionais</title>
+    <meta name="description" content="Descubra as máquinas industriais e comerciais da Potamask. Equipamentos de alta tecnologia para fazer todos os tipos de batata: frita, rústica, espiral e purê.">
 </head>
-
 <body>
 
-    <!-- CABEÇALHO -->
-    <header class="header">
-        <div class="container header-content">
-
-            <a href="#" class="logo">
-                <span>🥔</span>
-                Potamask
-            </a>
-
-            <nav class="nav">
-                <a href="#inicio">Início</a>
-                <a href="#cardapio">Cardápio</a>
-                <a href="#sobre">Sobre</a>
-            </nav>
-
-            <button class="cart-button" id="openCart">
-                🛒
-                <span>Carrinho</span>
-                <b id="cartCount">0</b>
-            </button>
-
+    <!-- Cabeçalho / Menu de Navegação -->
+    <header>
+        <div class="logo">
+            <strong>POTA<span>MASK</span></strong>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#maquinas">Nossas Máquinas</a></li>
+                <li><a href="#beneficios">Diferenciais</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="cta-header">
+            <a href="#contato" class="btn-primary">Fale com um Especialista</a>
         </div>
     </header>
 
-
-    <!-- HERO -->
     <main>
-
-        <section class="hero" id="inicio">
-            <div class="container hero-content">
-
-                <div class="hero-text">
-                    <span class="badge">🔥 A batata mais crocante da cidade</span>
-
-                    <h1>
-                        Batatas que
-                        <span>fazem você pedir mais.</span>
-                    </h1>
-
-                    <p>
-                        Batatas crocantes, recheadas e cheias de sabor.
-                        Escolha sua favorita e monte seu pedido na Potamask.
-                    </p>
-
-                    <div class="hero-buttons">
-                        <a href="#cardapio" class="btn btn-primary">
-                            Ver cardápio 🍟
-                        </a>
-
-                        <a href="#sobre" class="btn btn-secondary">
-                            Conheça a Potamask
-                        </a>
-                    </div>
+        <!-- Seção Principal (Hero Section) -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>A revolução na produção de batatas automáticas</h1>
+                <p>Do corte ao ponto perfeito. A <strong>Potamask</strong> fabrica máquinas inteligentes que preparam todos os tipos de batata: fritas, rústicas, espirais, chips e purês, com máxima eficiência e padrão industrial.</p>
+                <div class="hero-buttons">
+                    <a href="#maquinas" class="btn-primary">Ver Modelos</a>
+                    <a href="https://wa.me" class="btn-secondary" target="_blank">Orçamento via WhatsApp</a>
                 </div>
-
-                <div class="hero-image">
-                    <div class="image-circle">
-                        🍟
-                    </div>
-
-                    <div class="floating-card">
-                        <strong>+ Crocante</strong>
-                        <span>+ Sabor</span>
-                    </div>
-                </div>
-
+            </div>
+            <div class="hero-image">
+                <!-- Substitua pelo link da foto da sua máquina principal -->
+                <img src="imagem-maquina-principal.jpg" alt="Máquina de Batata Industrial Potamask">
             </div>
         </section>
 
+        <!-- Seção de Produtos / Máquinas -->
+        <section id="maquinas" class="products">
+            <h2>Nossas Máquinas Versáteis</h2>
+            <p class="subtitle">Um único ecossistema para criar qualquer tipo de batata que o seu negócio precisar.</p>
+            
+            <div class="product-grid">
+                <!-- Máquina 1 -->
+                <div class="product-card">
+                    <img src="potamask-industrial.jpg" alt="Potamask Pro Turbo">
+                    <h3>Potamask Pro Turbo</h3>
+                    <p>Ideal para fast-foods e grandes indústrias. Lava, descasca, corta em palito ou rústica e entrega pré-frita.</p>
+                    <span class="badge">Alta Produtividade</span>
+                    <a href="#contato" class="btn-product">Solicitar Preço</a>
+                </div>
 
-        <!-- BENEFÍCIOS -->
+                <!-- Máquina 2 -->
+                <div class="product-card">
+                    <img src="potamask-spiral.jpg" alt="Potamask Gourmet Switch">
+                    <h3>Potamask Gourmet Switch</h3>
+                    <p>Perfeita para food trucks e buffets. Especialista em cortes artísticos: batata espiral, chips ondulados e fitas.</p>
+                    <span class="badge">Mais Vendida</span>
+                    <a href="#contato" class="btn-product">Solicitar Preço</a>
+                </div>
+
+                <!-- Máquina 3 -->
+                <div class="product-card">
+                    <img src="potamask-pure.jpg" alt="Potamask Mash Station">
+                    <h3>Potamask Mash Station</h3>
+                    <p>Módulo automatizado de cozimento e amassamento ultrarrápido para purês e massas de nhoque perfeitamente homogêneas.</p>
+                    <span class="badge">Inovação</span>
+                    <a href="#contato" class="btn-product">Solicitar Preço</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tipos de Batata Suportados -->
         <section class="features">
-            <div class="container features-grid">
-
-                <div class="feature">
-                    <div class="feature-icon">🔥</div>
-                    <div>
-                        <h3>Feita na hora</h3>
-                        <p>Batata quentinha e crocante.</p>
-                    </div>
-                </div>
-
-                <div class="feature">
-                    <div class="feature-icon">🧀</div>
-                    <div>
-                        <h3>Muito recheio</h3>
-                        <p>Ingredientes selecionados.</p>
-                    </div>
-                </div>
-
-                <div class="feature">
-                    <div class="feature-icon">🚀</div>
-                    <div>
-                        <h3>Entrega rápida</h3>
-                        <p>Seu pedido chegando rapidinho.</p>
-                    </div>
-                </div>
-
+            <h2>Fazemos Todos os Tipos de Batata</h2>
+            <div class="features-list">
+                <div class="feature-item">🍟 <strong>Batata Frita Tradicional</strong></div>
+                <div class="feature-item">🥔 <strong>Batata Rústica</strong></div>
+                <div class="feature-item">🌀 <strong>Batata Espiral / No Espeto</strong></div>
+                <div class="feature-item">💿 <strong>Chips Crocantes</strong></div>
+                <div class="feature-item">🥣 <strong>Purê Cremoso</strong></div>
             </div>
         </section>
 
-
-        <!-- CARDÁPIO -->
-        <section class="menu-section" id="cardapio">
-            <div class="container">
-
-                <div class="section-title">
-                    <span>🍟 Nosso cardápio</span>
-                    <h2>Escolha sua batata</h2>
-                    <p>Tem opção para todos os tipos de fome.</p>
+        <!-- Seção de Benefícios -->
+        <section id="beneficios" class="benefits">
+            <h2>Por que escolher a Potamask?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-box">
+                    <h3>Aço Inox Cirúrgico</h3>
+                    <p>Estrutura robusta dentro das normas da ANVISA, garantindo higiene e durabilidade de décadas.</p>
                 </div>
-
-                <div class="menu-grid">
-
-                    <article class="product-card">
-
-                        <div class="product-image">
-                            🍟
-                        </div>
-
-                        <div class="product-info">
-                            <span class="product-tag">Mais pedida</span>
-
-                            <h3>Batata Clássica</h3>
-
-                            <p>
-                                Batata crocante com cheddar e bacon.
-                            </p>
-
-                            <div class="product-bottom">
-                                <strong>R$ 18,90</strong>
-
-                                <button
-                                    class="add-button"
-                                    data-name="Batata Clássica"
-                                    data-price="18.90">
-                                    +
-                                </button>
-                            </div>
-                        </div>
-
-                    </article>
-
-
-                    <article class="product-card">
-
-                        <div class="product-image">
-                            🧀
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-tag">Cremosa</span>
-
-                            <h3>Potamask Cheddar</h3>
-
-                            <p>
-                                Batata crocante com muito cheddar cremoso.
-                            </p>
-
-                            <div class="product-bottom">
-                                <strong>R$ 21,90</strong>
-
-                                <button
-                                    class="add-button"
-                                    data-name="Potamask Cheddar"
-                                    data-price="21.90">
-                                    +
-                                </button>
-                            </div>
-                        </div>
-
-                    </article>
-
-
-                    <article class="product-card">
-
-                        <div class="product-image">
-                            🥓
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-tag">Bacon</span>
-
-                            <h3>Batata Bacon</h3>
-
-                            <p>
-                                Batata, cheddar, bacon crocante e molho especial.
-                            </p>
-
-                            <div class="product-bottom">
-                                <strong>R$ 23,90</strong>
-
-                                <button
-                                    class="add-button"
-                                    data-name="Batata Bacon"
-                                    data-price="23.90">
-                                    +
-                                </button>
-                            </div>
-                        </div>
-
-                    </article>
-
-
-                    <article class="product-card">
-
-                        <div class="product-image">
-                            🌭
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-tag">Especial</span>
-
-                            <h3>Potato Dog</h3>
-
-                            <p>
-                                Batata, salsicha, cheddar, bacon e molho especial.
-                            </p>
-
-                            <div class="product-bottom">
-                                <strong>R$ 25,90</strong>
-
-                                <button
-                                    class="add-button"
-                                    data-name="Potato Dog"
-                                    data-price="25.90">
-                                    +
-                                </button>
-                            </div>
-                        </div>
-
-                    </article>
-
-
-                    <article class="product-card">
-
-                        <div class="product-image">
-                            🍗
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-tag">Frango</span>
-
-                            <h3>Batata Frango</h3>
-
-                            <p>
-                                Frango desfiado, cheddar e batata crocante.
-                            </p>
-
-                            <div class="product-bottom">
-                                <strong>R$ 22,90</strong>
-
-                                <button
-                                    class="add-button"
-                                    data-name="Batata Frango"
-                                    data-price="22.90">
-                                    +
-                                </button>
-                            </div>
-                        </div>
-
-                    </article>
-
-
-                    <article class="product-card">
-
-                        <div class="product-image">
-                            🥔
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-tag">Família</span>
-
-                            <h3>Potamask Gigante</h3>
-
-                            <p>
-                                Porção gigante para dividir com a galera.
-                            </p>
-
-                            <div class="product-bottom">
-                                <strong>R$ 34,90</strong>
-
-                                <button
-                                    class="add-button"
-                                    data-name="Potamask Gigante"
-                                    data-price="34.90">
-                                    +
-                                </button>
-                            </div>
-                        </div>
-
-                    </article>
-
+                <div class="benefit-box">
+                    <h3>Painel Touchscreen</h3>
+                    <p>Altere o tipo de corte, espessura e tempo de preparo com apenas um toque na tela inteligente.</p>
                 </div>
-
+                <div class="benefit-box">
+                    <h3>Suporte 24/7</h3>
+                    <p>Manutenção preventiva e peças de reposição originais a pronta entrega em todo o Brasil.</p>
+                </div>
             </div>
         </section>
 
-
-        <!-- SOBRE -->
-        <section class="about" id="sobre">
-            <div class="container about-content">
-
-                <div class="about-image">
-                    🥔
-                </div>
-
-                <div class="about-text">
-                    <span>💛 Sobre a Potamask</span>
-
-                    <h2>
-                        Batata simples?
-                        <br>
-                        Aqui não!
-                    </h2>
-
-                    <p>
-                        A Potamask nasceu para transformar uma simples batata
-                        em uma experiência cheia de sabor.
-                    </p>
-
-                    <p>
-                        Batatas crocantes, recheios generosos e aquele molho
-                        especial que faz você querer repetir o pedido.
-                    </p>
-
-                    <a href="#cardapio" class="btn btn-primary">
-                        Quero uma Potamask 🍟
-                    </a>
-                </div>
-
+        <!-- Seção de Depoimentos (Prova Social) -->
+        <section id="depoimentos" class="testimonials">
+            <h2>Quem usa, aprova</h2>
+            <div class="testimonial-card">
+                <p>"A Potamask triplicou a velocidade do nosso atendimento. O corte rústico sai padronizado e sem desperdício de matéria-prima."</p>
+                <h4>- Carlos Alberto, Dono de Hamburgueria</h4>
             </div>
         </section>
 
+        <!-- Seção de Contato / Formulário de Vendas -->
+        <section id="contato" class="contact">
+            <h2>Aumente o lucro do seu negócio hoje</h2>
+            <p>Preencha os dados abaixo. Um consultor técnico da Potamask entrará em contato para indicar o modelo ideal.</p>
+            
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="name" required placeholder="Ex: João Silva">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail Corporativo:</label>
+                    <input type="email" id="email" name="email" required placeholder="Ex: joao@empresa.com">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone / WhatsApp:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="(11) 99999-9999">
+                </div>
+                <div class="form-group">
+                    <label for="interest">Modelo de Interesse:</label>
+                    <select id="interest" name="interest">
+                        <option value="pro-turbo">Potamask Pro Turbo (Frita/Rústica)</option>
+                        <option value="gourmet-switch">Potamask Gourmet Switch (Espiral/Chips)</option>
+                        <option value="mash-station">Potamask Mash Station (Purê)</option>
+                        <option value="todos">Quero conhecer todos os modelos</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-submit">Solicitar Consultoria Gratuita</button>
+            </form>
+        </section>
     </main>
 
-
-    <!-- RODAPÉ -->
-    <footer class="footer">
-        <div class="container footer-content">
-
-            <div>
-                <div class="logo">
-                    🥔 Potamask
-                </div>
-
-                <p>
-                    Batatas feitas para matar sua fome.
-                </p>
-            </div>
-
-            <div class="footer-links">
-                <a href="#inicio">Início</a>
-                <a href="#cardapio">Cardápio</a>
-                <a href="#sobre">Sobre</a>
-            </div>
-
-        </div>
-
-        <div class="copyright">
-            © 2026 Potamask. Todos os direitos reservados.
-        </div>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Potamask Máquinas Industriais Ltda. Todos os direitos reservados.</p>
+        <p>CNPJ: 00.000.000/0001-00 | Indústria Brasileira</p>
     </footer>
-
-
-    <!-- CARRINHO -->
-    <div class="cart-overlay" id="cartOverlay"></div>
-
-    <aside class="cart" id="cart">
-
-        <div class="cart-header">
-            <h2>🛒 Seu carrinho</h2>
-
-            <button id="closeCart" class="close-cart">
-                ×
-            </button>
-        </div>
-
-        <div class="cart-items" id="cartItems">
-
-            <div class="empty-cart">
-                <span>🥔</span>
-                <p>Seu carrinho está vazio.</p>
-                <small>Adicione uma batata deliciosa!</small>
-            </div>
-
-        </div>
-
-        <div class="cart-footer">
-
-            <div class="total">
-                <span>Total</span>
-                <strong id="cartTotal">R$ 0,00</strong>
-            </div>
-
-            <button class="checkout-button" id="checkout">
-                Finalizar pedido
-            </button>
-
-        </div>
-
-    </aside>
-
-
-    <script src="script.js"></script>
 
 </body>
 </html>
